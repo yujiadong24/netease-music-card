@@ -17,7 +17,7 @@ jobs:
       - name: index.js
         run: node index.js
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.AGITHUB_TOKEN }}
           USER_ID: 247847130
           USER_TOKEN: ${{ secrets.USER_TOKEN }}
           REPO: "netease-music-card"
